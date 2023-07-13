@@ -72,7 +72,7 @@ resource "aws_network_acl" "parth-tf-nacl" {
     to_port    = 0
   }
   tags = {
-    Name = random_pet.random_pet.id
+    Name = random_pet.random_pet.id 
   }
 }
 
